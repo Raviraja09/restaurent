@@ -1,4 +1,5 @@
-import MealItem from './MealItem.css'
+
+import MealItem from './MealItem.css';
 const MealItem=props=>
 {
     const price='$${props.pricetobefixed(2)}'
