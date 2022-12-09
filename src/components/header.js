@@ -1,9 +1,11 @@
 import { Fragment } from "react"
+import HeadercartButton from "./HeadercartButton"
 const header=(props)=>
 {
  return <Fragment>
     <header className={classes.header}>
         <h1>Reactmeals</h1>
+        <HeadercartButton onclick={props.onShowCart}/>
         <button>cart</button>
     </header>
     <div className={classes[main-image]}>
