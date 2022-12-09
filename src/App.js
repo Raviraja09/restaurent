@@ -5,7 +5,10 @@ import
 function App() {
   return (
     <Fragment>
-      <header></header>
+      <Header></Header>
+      <Meals />
+
+      
       </Fragment>
   );
 }
